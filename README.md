@@ -1,6 +1,6 @@
 # Dotfile Manager with Chef
 
-Ruby MUST be installed directly on the user system for root/system package installation. Once installed user can install the chef-dk package directly to
+Ruby MUST be installed directly on the user system for root/system package installation. Once installed user can install the chef-dk package directly. RVM is assumed to be installed to the user's directory. Since RVM requires a login shell, I only setup .bash_profile to source my custom script. (.bashrc only handles non login shells.)
 
 ## Install Ruby (system wide)
 For Debian/Chef systems install from here
